@@ -7,7 +7,7 @@ This is a lightweight Python-based port scanner designed for network exploration
 
 # Key Features:
 
-*Port Range Scanning: Scan a specified range of ports on a target host.
+*Port Range Scanning: Scan a specified range of ports on a target host.\n
 *Multi-threading Support: Utilize multi-threading to enhance scanning speed and efficiency.
 *User-friendly Interface: Simple command-line interface for easy usage and navigation.
 *Flexible Configuration: Customize scan parameters such as timeout duration and number of threads.
