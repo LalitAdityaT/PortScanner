@@ -1,20 +1,33 @@
-# PortScanner
-This Python port scanner quickly checks for open ports on a specified host, perfect for beginners exploring network security and socket programming. Contributions are welcome to enhance its capabilities.
+# Port Scanner
 
-# Simple Port Scanner Project Description:
+## Description
+A Python script for scanning ports on specified target IP addresses.
 
-This is a lightweight Python-based port scanner designed for network exploration. With this tool, users can quickly scan a range of ports on a given host to check for open or closed ports. The project utilizes socket programming to establish connections with target ports, providing valuable information for network administrators and security enthusiasts.
+## Requirements
+- Python 3.x
+- `socket` library (usually included in standard Python installations)
+- `termcolor` library for colored output (optional but recommended for better visualization)
 
-# Key Features:
+## Installation
+1. Ensure you have Python 3.x installed on your system.
+2. Install the `termcolor` library using pip:
 
-*_Port Range Scanning:_ Scan a specified range of ports on a target host.
+## Usage
+1. Clone the repository or download the script file directly.
+2. Open a terminal or command prompt.
+3. Navigate to the directory containing the script.
+4. Run the script using Python:
+5. Follow the on-screen prompts to input the target IP address(es) and the number of ports to scan.
 
-*_Multi-threading Support:_ Utilize multi-threading to enhance scanning speed and efficiency.
+## Legal and Ethical Considerations
+- Always use this tool responsibly and with proper authorization.
+- Unauthorized port scanning is against network policies and may have legal consequences.
+- Respect privacy and security guidelines when using this script.
 
-*_User-friendly Interface:_ Simple command-line interface for easy usage and navigation.
+## Contributing
+1. Fork the repository.
+2. Make your changes or improvements.
+3. Submit a pull request detailing the changes and why they are beneficial.
 
-*_Flexible Configuration:_ Customize scan parameters such as timeout duration and number of threads.
-
-*_Result Reporting:_ Clearly display open and closed ports, aiding in network analysis and troubleshooting.
-
-This project is ideal for beginners looking to understand socket programming concepts and network scanning techniques. Contributions and feedback are welcome to enhance its functionality and usability. Explore the world of network scanning with this straightforward and educational port scanner project!
+## License
+This project is licensed under the [MIT License](LICENSE).
